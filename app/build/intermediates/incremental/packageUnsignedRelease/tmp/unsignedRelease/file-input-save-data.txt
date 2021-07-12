@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Sep 03 14:06:58 EDT 2018
+1.base=C\:\\Users\\gauso001\\Kirino-Android\\app\\build\\intermediates\\assets\\unsignedRelease
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\gauso001\\Kirino-Android\\app\\build\\intermediates\\transforms\\dexMerger\\unsignedRelease\\0
+1.path=crashlytics-build.properties

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.k1ra.kirino"
+      android:versionCode="7"
+      android:versionName="V1.2.1.0 -beta"
+      split="lib_slice_8_apk">
+</manifest>

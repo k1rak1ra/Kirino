@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\gauso001\Kirino-Android\app\src\main\assets"/><source path="C:\Users\gauso001\Kirino-Android\app\build\generated\assets\shaders\unsignedRelease"/></dataSet><dataSet config="unsignedRelease"><source path="C:\Users\gauso001\Kirino-Android\app\src\unsignedRelease\assets"/></dataSet></merger>

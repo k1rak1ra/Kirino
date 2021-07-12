@@ -1,0 +1,4 @@
+#Wed Sep 05 13:04:32 EDT 2018
+base.0=C\:\\Users\\gauso001\\Kirino-Android\\app\\build\\intermediates\\transforms\\dexMerger\\unsignedRelease\\0
+path.0=classes.dex
+renamed.0=classes.dex

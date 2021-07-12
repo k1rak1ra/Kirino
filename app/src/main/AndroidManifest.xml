@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.k1ra.kirino">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".act_main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="net.k1ra.update.anime" />
+                <action android:name="net.k1ra.update.manga" />
+                <action android:name="net.k1ra.update.waifu" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                android:host="kirino.app"
+                android:pathPattern="/*"
+                android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.k1ra.update.anime" />
+                <action android:name="net.k1ra.update.manga" />
+                <action android:name="net.k1ra.update.waifu" />
+                <action android:name="net.k1ra.update.feed_add" />
+                <action android:name="net.k1ra.CR_video_closed" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fullscreen_video"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="fullscreen_video"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+
+        <service
+            android:name=".sync_service"
+            android:enabled="true"
+            android:label="Sync service"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name=".start_sync_on_startup"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="net.k1ra.kirino.sync" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".fullscreen_chrome"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="fullscreen_chrome"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".fullscreen_manga_reader"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="fullscreen_manga"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":7,"versionName":"V1.2.1.0 -beta","enabled":true,"outputFile":"app-normalRelease.apk","fullName":"normalRelease","baseName":"normalRelease"},"path":"AndroidManifest.xml","properties":{"packageId":"net.k1ra.kirino","split":"","minSdkVersion":"21"}}]

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "53394723483",
+    "firebase_url": "https://kirino-35680.firebaseio.com",
+    "project_id": "kirino-35680",
+    "storage_bucket": "kirino-35680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53394723483:android:c97643587ee336db",
+        "android_client_info": {
+          "package_name": "net.k1ra.kirino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53394723483-89thfhn2e1duirn78omofophmjb5lgc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.k1ra.kirino",
+            "certificate_hash": "9e51a3b1b8cd89216426c79d5cd6752fca8cb8d2"
+          }
+        },
+        {
+          "client_id": "53394723483-audibssqli55hjqgc8v4p6mbudp3thii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzRSFU8JZIp7LkjduoZTLptTdTbUyo0zw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53394723483-audibssqli55hjqgc8v4p6mbudp3thii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

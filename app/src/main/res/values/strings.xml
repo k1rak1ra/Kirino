@@ -1,0 +1,163 @@
+<resources>
+    <string name="AL_client_id">693</string>
+
+    <string name="app_name">Kirino</string>
+    <string name="search_hint">anime/manga/chara</string>
+    <string name="no_internet">Could not connect to the Internet</string>
+    <string name="no_internet_toast">No Internet connection</string>
+    <string name="try_again">try again</string>
+    <string name="s_r_anime">Anime:</string>
+    <string name="s_r_anime_none">No anime found</string>
+    <string name="s_r_manga">Manga/LN:</string>
+    <string name="s_r_manga_none">No manga/LN found</string>
+    <string name="s_r_chara">Characters:</string>
+    <string name="s_r_chara_none">No characters found</string>
+    <string name="no_score_data">No score data</string>
+    <string name="will_start_anime">Will start airing</string>
+    <string name="will_start_manga">Will start releasing</string>
+    <string name="current_anime">Currently airing</string>
+    <string name="current_manga">Currently releasing</string>
+    <string name="old_anime">Aired</string>
+    <string name="old_manga">Released</string>
+    <string name="AniList">AniList</string>
+    <string name="login">login</string>
+    <string name="set_al_sync_a">Sync anime list with AniList</string>
+    <string name="set_al_sync_m">Sync manga list with AniList</string>
+    <string name="set_al_sync_w">Sync waifu list with AniList</string>
+    <string name="set_al_sync_prog_a">Automatically sync anime watch progress with AniList</string>
+    <string name="set_al_sync_prog_m">Automatically sync manga reading progress with AniList</string>
+    <string name="al_sess_invalid">AniList auth token invalid or expired. Please login again</string>
+    <string name="anime_list_empty"><font fgcolor="#31B404">\>anime list is empty</font> \n The impossible has been achieved</string>
+    <string name="manga_list_empty"><font fgcolor="#31B404">\>manga/LN list is empty</font> \n Art thou an AnimeOnlyScrub?</string>
+    <string name="waifu_list_empty"><font fgcolor="#31B404">\>waifu list is empty</font> \n Art thou a filthy, filthy normie? \n REEEEEEEEEEEEEEEEEEEEEEEEEEE</string>
+    <string name="reminders">Notifications</string>
+    <string name="reminders_sw_text">Notify me when a new episode of an anime I\'m watching or chapter of a manga I\'m reading comes out</string>
+    <string name="episodes">episode(s)</string>
+    <string name="chapters">chapters</string>
+    <string name="new_episode_in">New episode in</string>
+    <string name="days">days</string>
+    <string name="ep_today">New episode today</string>
+    <string name="ep_tomorrow">New episode tomorrow</string>
+    <string name="refresh_interval">Refresh interval</string>
+    <string name="refresh_interval_text">This is how ofter all the data on the anime/manga lists will be refreshed. If you\'re signed into Anilist, your list data will be synced as well. Value is in minutes.</string>
+    <string name="ep_released">New episode released</string>
+    <string name="chap_released">New chapter(s) released</string>
+    <string name="already_in_list">Already in list!</string>
+    <string name="added_to_list">Added to list</string>
+    <string name="share">Share</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="details">details</string>
+    <string name="fanart">fanart</string>
+    <string name="waifu_del_1">Are you sure that</string>
+    <string name="waifu_del_2">is no longer your waifu?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="safe">safe</string>
+    <string name="questionable">questionable</string>
+    <string name="explicit">explicit</string>
+    <string name="search">search</string>
+    <string name="gelbooru">Gelbooru</string>
+    <string name="global_tag_string">Automatically apply these tags to all fanart queries:</string>
+    <string name="tag_hint">Tags, separated by a space</string>
+    <string name="global_tag_default">-3d -photo -cosplay -comic</string>
+    <string name="no_posts_found">No posts found!</string>
+    <string name="download">download</string>
+    <string name="downloading">Downloading image...</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="manage">manage</string>
+    <string name="pirate">pirate</string>
+    <string name="CR">Crunchyroll</string>
+    <string name="complete">complete</string>
+    <string name="drop">drop</string>
+    <string name="score">Score:</string>
+    <string name="chap_prog">Chapter progress:</string>
+    <string name="vol_prog">Volume progress:</string>
+    <string name="reread">Reread:</string>
+    <string name="change">change</string>
+    <string name="media_del">Are you sure that you want to remove</string>
+    <string name="start_date">Start date:</string>
+    <string name="end_date">End date:</string>
+    <string name="ok">OK</string>
+    <string name="parse_error">Number parsing error</string>
+    <string name="media_drop">Are you sure you want to drop</string>
+    <string name="media_complete">Have you completed</string>
+    <string name="ep_prog">Episode progress:</string>
+    <string name="rewatched">Rewatched:</string>
+    <string name="CR_logged_in">You are logged into Crunchyroll as</string>
+    <string name="logout">logout</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="keystore_exception">Keystore exception</string>
+    <string name="CR_premium_needed">You need a premium account</string>
+    <string name="login_fail">The email or password are incorrect</string>
+    <string name="stream_error">Streaming error! Either you\'ve been logged out or this is not available in your country :(</string>
+    <string name="episode">Episode</string>
+    <string name="MA_episode_thumbnail">https://cdn.masterani.me/episodes/</string>
+    <string name="spoofed_user_agent">Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</string>
+    <string name="set_piracy">Piracy</string>
+    <string name="set_no_redirect">Kill redirects</string>
+    <string name="set_no_redirect_description">This should stop you from being redirected to ads on embedded videos, but it might also prevent things like a video player\'s download button from working</string>
+    <string name="finished_episode">Did you finish watching the episode?</string>
+    <string name="anilist_warning">Logging in will replace all your existing data with data from your AniList account. Are you sure you want to continue?</string>
+    <string name="fetch">fetch</string>
+    <string name="year">year</string>
+    <string name="nothing_found">Nothing found</string>
+    <string-array name="seasons">
+        <item>WINTER</item>
+        <item>SPRING</item>
+        <item>SUMMER</item>
+        <item>FALL</item>
+    </string-array>
+    <string name="not_yet_aired">Hasn\'t started airing</string>
+    <string name="set_background">Background image</string>
+    <string name="set_about">About</string>
+    <string name="about_about"> By k1ra (k1ra@k1ra.net) \nIcon/default background by SquidGuu</string>
+    <string name="about_credits">Credits: \n - com.squareup.picasso:picasso \n - com.google.android.exoplayer:exoplayer \n - com.davemorrissey.labs:subsampling-scale-image-view \n - icons from icons8.com</string>
+    <string name="your_waifu_is_shit">If you don\'t like Rory Mercury then you suffer from an uncurable disease called terrible taste and your waifu is trash ^-^ \n \nImage by nyoro on Pixiv</string>
+    <string name="welcome">Welcome to Kirino!</string>
+    <string name="navigation">You navigate to different parts of this app by swiping left and right. \n \n
+        You\'ll start out on your home screen where you can search for anime/manga/LN/characters, or look for anime by season. \n
+        Your searches will show up there as well. \n \n
+        From your home screen, swipe right: \n
+        Once to get to waifu list \n
+        Again to get to settings  \n \n
+        Or left: \n
+        Once to get to your anime PTW list \n
+        Again to get to your manga/LN PTR list
+    </string>
+    <string name="dismiss">dismiss</string>
+    <string name="downloading_manga">Downloading manga pages...</string>
+    <string name="no_pages_before">No more pages before this!</string>
+    <string name="no_pages_after">No more pages after this!</string>
+    <string name="CR_warning_title">A note about streaming "services"</string>
+    <string name="CR_warning">Crunchyroll, Funimation, Netfilx, Amazon and other western so-called legal anime licensors/streaming services
+        are killing anime and the anime fandom in the west through their anti-competitive practices, providing a grossly inferior service, and forceful insertion of their politics into their product/service.
+    These companies are neither a charity, nor your friend. They do not care about Japanese creators, their work, or the fans at all (and in fact resent them). You are not supporting the industry in any way by subscribing
+    to these services and paying money for them. You should strongly consider cancelling your subscription and using pirate streams. If you want video quality, download a torrent from a fansub site.
+    If you want to support the industry, buy blurays and/or merchandise directly from Japan.</string>
+    <string name="donate">Donate</string>
+    <string name="donate_error">An error occurred</string>
+    <string name="donate_done">Arigatougozaimasu ^-^</string>
+    <string name="donate_cancelled">Donation cancelled</string>
+    <string name="donate_text">If you\'d like to support me or Kirino\'s development (and potential future support for other platforms like GNU/Linux, PSVita, or Switch), you can donate. There are no special donation rewards; you can fully use all features of Kirino for free. \n \n Google takes 30% of any amount donated.</string>
+    <string name="n_nani">Error getting romaji title</string>
+    <string name="fsv_error">Error streaming video</string>
+    <string name="could_not_find">Could not find a stream :( Contact masterani.me and ask them to upload this anime onto their site</string>
+    <string name="gel_error">An error occured while fetching from Gelbooru. Perhaps the API is down</string>
+    <string name="custom_waifu_add">Add a waifu that isn\'t on AniList</string>
+    <string name="custom_waifu_message">Any non-AniList waifus you add will obviously not be synced through AniList. They will also not be overwritten when signing into an AniList account.</string>
+    <string name="c_w_name">Name</string>
+    <string name="c_w_btn">Select image</string>
+    <string name="c_w_tags">Gelbooru tag(s)</string>
+    <string name="c_w_error">No data entered</string>
+    <string name="no_next_chapter">You\'ve reached the end of all the currently available chapters</string>
+    <string name="next_chapter_not_downloaded">There is a next chapter, but you have not downloaded it yet. It is being downloaded now. Make sure you have internet, wait a few seconds, and then try again</string>
+    <string name="no_previous_chapter">There\'s no more chapters before this one</string>
+    <string name="previous_chapter_not_downloaded">There is a previous chapter, but you have not downloaded it yet. It is being downloaded now. Make sure you have internet, wait a few seconds, and then try again</string>
+
+    <string name="updated_title">Kirino has been updated!</string>
+    <string name="updated_notes">- Small bugfixes (or perhaps just blindly sweeping stuff under the rug, I haven\'t been able to replicate the bug in question) \n \n
+        - Manga reader is quite a bit slicker: automatically downloads the next chapter, seamless transition from one chapter to the next (or previous) inside the reader, and can download multiple chapters all at once (no more dialog box with the "download progress" bar)
+    </string>
+</resources>
